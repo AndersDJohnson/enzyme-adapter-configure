@@ -6,8 +6,19 @@
   "files": [
     "/index.js"
   ],
+  "repository": "AndersDJohnson/enzyme-adapter-configure",
   "author": "Anders D. Johnson <anders.d.johnson.developer@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "enzyme",
+    "adapter",
+    "enzymeAdapter",
+    "configure",
+    "auto-configure",
+    "autoconfigure",
+    "jest",
+    "setupFilesAfterEnv"
+  ],
   "dependencies": {
     "exact-version": "^1.0.2",
     "read-pkg-up": "^4.0.0",
