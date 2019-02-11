@@ -4,7 +4,8 @@
   "description": "Auto-configure Enzyme adapter.",
   "main": "index.js",
   "files": [
-    "/index.js"
+    "/index.js",
+    "/configure.js"
   ],
   "repository": "AndersDJohnson/enzyme-adapter-configure",
   "author": "Anders D. Johnson <anders.d.johnson.developer@gmail.com>",
