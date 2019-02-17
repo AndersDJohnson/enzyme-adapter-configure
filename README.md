@@ -1,6 +1,8 @@
 # enzyme-adapter-configure
 
-Configures an enzyme adapter automatically based on your `package.json` by detecting a React version in dependencies
+> Zero-configuration enzyme adapters.
+
+Configures an enzyme adapater automatically based on your `package.json` by detecting a React version in dependencies
 in `package.json`.
 
 Or optionally manually with a `package.json` field `enzymeAdapter` specifying a module to use, e.g.:
