@@ -1,7 +1,9 @@
 # enzyme-adapter-configure
 
 Configures an enzyme adapter automatically based on your `package.json` by detecting a React version in dependencies
-in `package.json`, or optionally looking for a field `enzymeAdapter` specifying a module to use, e.g.:
+in `package.json`.
+
+Or optionally manually with a `package.json` field `enzymeAdapter` specifying a module to use, e.g.:
 
 ```json
 {
@@ -18,4 +20,13 @@ This makes it easier to integrate with `jest` (rather than a custom script file)
 {
   "setupFilesAfterEnv": ["enzyme-adapter-configure"]
 }
+```
+
+That file would normally look like:
+
+```js
+const Enzyme = require('enzyme')	
+const EnzymeAdapter = require('enzyme-adapter-react-16')	
+
+Enzyme.configure({ adapter: new EnzymeAdapter() })
 ```
